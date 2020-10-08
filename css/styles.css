@@ -1,15 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 @import "./reset.css";
 @import "./variables.css";
 
 /* Components */
 @import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+@import "./components/user-component.css";
 
 /* Screens */
 @import "./screens/login.css";
+@import "./screens/friends.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+  color: var(--black);
 }
 
 input {
@@ -18,4 +29,9 @@ input {
 
 input:focus {
   outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
