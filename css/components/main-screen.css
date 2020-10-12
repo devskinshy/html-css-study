@@ -1,0 +1,16 @@
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.main-screen__bound {
+  margin-top: 25px;
+  border-top: 1px solid var(--gray2);
+  padding-top: 15px;
+}
+
+.main-screen__bound-contents {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray5);
+}

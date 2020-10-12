@@ -5,7 +5,7 @@
   background-color: var(--background);
   padding: 20px 50px;
   /* border-top: 1px solid rgba(121, 121, 121, 0.3); */
-  border-top: 1px solid var(--border-gray);
+  border-top: 1px solid var(--gray3);
 }
 
 .nav__list {
@@ -19,30 +19,12 @@
 }
 
 .nav__notification {
-  background-color: var(--tomato);
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--white);
-  font-size: 600;
   position: absolute;
   right: -10px;
   top: -10px;
 }
 
 .nav__new {
-  background-color: var(--tomato);
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 600;
   position: absolute;
   right: -10px;
   top: -10px;

@@ -8,13 +8,15 @@
   align-items: center;
 }
 .user-component__column:last-child {
-  color: var(--gray);
+  color: var(--gray4);
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 25px;
   margin-right: 20px;
 }
 .user-component__avatar--xl {
@@ -24,7 +26,6 @@
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
-  border-radius: 25px;
 }
 
 .user-component__title {
@@ -38,5 +39,10 @@
 .user-component__subtitle {
   margin-top: 5px;
   font-size: 17px;
-  color: var(--gray);
+  color: var(--gray5);
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }

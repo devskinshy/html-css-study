@@ -2,16 +2,14 @@
   --white: white;
   --tomato: tomato;
   --yellow: #fae100;
-  --light-gray: rgba(0, 0, 0, 0.3);
-  --gray: rgba(0, 0, 0, 0.5);
+  --gray2: rgba(0, 0, 0, 0.2);
+  --gray3: rgba(0, 0, 0, 0.3);
+  --gray4: rgba(0, 0, 0, 0.4);
+  --gray5: rgba(0, 0, 0, 0.5);
   --black: #2e363e;
 
-  --placeholder: rgba(0, 0, 0, 0.4);
   --link: #fafafa;
   --background: #f9f9fa;
-
-  --border-black: rgba(0, 0, 0, 0.2);
-  --border-gray: rgba(121, 121, 121, 0.3);
 
   --horizontal-space: 25px;
 }

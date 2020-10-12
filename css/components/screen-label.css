@@ -1,0 +1,13 @@
+.screen-label {
+  text-align: center;
+  display: block;
+  background-color: var(--link);
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.screen-label i {
+  color: var(--gray3);
+}
