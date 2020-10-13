@@ -3,14 +3,18 @@
 }
 
 .main-screen__bound {
-  margin-top: 25px;
-  border-top: 1px solid var(--gray2);
-  padding-top: 15px;
+  margin: 25px 0px;
+  border-top: var(--main-border);
 }
 
 .main-screen__bound-contents {
-  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
+  padding-top: 15px;
   color: var(--gray5);
+}
+
+.main-screen__bound-contents > *:last-child {
+  color: var(--gray3);
+  cursor: pointer;
 }

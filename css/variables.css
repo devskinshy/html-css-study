@@ -2,6 +2,7 @@
   --white: white;
   --tomato: tomato;
   --yellow: #fae100;
+  --pink: #ffb0e0;
   --gray2: rgba(0, 0, 0, 0.2);
   --gray3: rgba(0, 0, 0, 0.3);
   --gray4: rgba(0, 0, 0, 0.4);
@@ -12,4 +13,7 @@
   --background: #f9f9fa;
 
   --horizontal-space: 25px;
+
+  --main-border: 1px solid var(--gray2);
+  --nav-border: 1px solid rgba(121, 121, 121, 0.3);
 }
