@@ -1,12 +1,13 @@
 .badge,
-.dot {
+.dot,
+.alert {
   background-color: var(--tomato);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--white);
-  font-size: 600;
+  font-weight: 600;
 }
 
 .badge {
@@ -17,4 +18,12 @@
 .dot {
   width: 10px;
   height: 10px;
+}
+
+.alert {
+  width: 20px;
+  height: 20px;
+  background-color: var(--white);
+  border: 2px solid var(--tomato);
+  color: var(--tomato);
 }
