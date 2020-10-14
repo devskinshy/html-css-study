@@ -6,14 +6,30 @@
   justify-content: center;
 }
 
+.alt-header__column {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
+  justify-content: flex-start;
+  flex-grow: 0;
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  justify-content: flex-end;
+  flex-grow: 0;
+}
+
+.alt-header__column:last-child span + span {
+  margin-left: 20px;
 }
 
 .alt-header__title {
   font-size: 28px;
-  font-weight: 600px;
+  font-weight: 600;
 }
