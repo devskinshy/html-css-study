@@ -13,6 +13,7 @@
 @import "./components/main-screen.css";
 @import "./components/user-component.css";
 @import "./components/icon-row.css";
+@import "./components/no-mobile.css";
 
 /* Screens */
 @import "./screens/login.css";
@@ -28,7 +29,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  /* height: 1000vh; */
   color: var(--black);
 }
 
